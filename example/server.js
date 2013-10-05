@@ -15,7 +15,7 @@ s.on('connection',function(con){
     em.apply(this,arguments);
   }
 
-  con.handshake({
+  con.handshake({}||{
     user:"root",
     password:"hi"
   });

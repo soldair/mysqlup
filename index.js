@@ -1,5 +1,5 @@
 
-var FakeServer = require('lib/Server')
+var FakeServer = require('./lib/Server')
 
 module.exports = function(){
   //
