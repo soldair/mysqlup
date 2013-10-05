@@ -1,0 +1,19 @@
+{
+  "name": "mysqlup",
+  "description": "mysql interface leveldb backend",
+  "version": "0.0.0",
+  "repository": {
+    "url": "git://github.com/soldair/mysqlup.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/*.js"
+  },
+  "author": "Ryan Day",
+  "dependencies": {
+    "mysql": "~2.0.0-alpha9"
+  },
+  "devDependencies": {
+    "tape": "~1.1.1"
+  }
+}
